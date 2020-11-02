@@ -1284,10 +1284,10 @@
     "@emotion/utils" "0.11.3"
     "@emotion/weak-memoize" "0.2.5"
 
-"@emotion/core@^10.0.0", "@emotion/core@^10.0.35":
-  version "10.0.35"
-  resolved "https://registry.yarnpkg.com/@emotion/core/-/core-10.0.35.tgz#513fcf2e22cd4dfe9d3894ed138c9d7a859af9b3"
-  integrity sha512-sH++vJCdk025fBlRZSAhkRlSUoqSqgCzYf5fMOmqqi3bM6how+sQpg3hkgJonj8GxXM4WbD7dRO+4tegDB9fUw==
+"@emotion/core@^10.0.0", "@emotion/core@^10.1.0":
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/@emotion/core/-/core-10.1.0.tgz#8e3a99bf42fc27608d692f6ea7a82a180cfe0eb6"
+  integrity sha512-b4ojBXwumJ/Zc7zie4NjE5J/snS9DxsCCjW5dQ3Yr8sX5cOSbRPOd80ba3fIWUydTZmhRvbGXdBFJxj4J24rXg==
   dependencies:
     "@babel/runtime" "^7.5.5"
     "@emotion/cache" "^10.0.27"
@@ -4192,19 +4192,7 @@
   dependencies:
     "@types/webpack" "*"
 
-"@types/webpack@*":
-  version "4.41.22"
-  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.22.tgz#ff9758a17c6bd499e459b91e78539848c32d0731"
-  integrity sha512-JQDJK6pj8OMV9gWOnN1dcLCyU9Hzs6lux0wBO4lr1+gyEhIBR9U3FMrz12t2GPkg110XAxEAw2WHF6g7nZIbRQ==
-  dependencies:
-    "@types/anymatch" "*"
-    "@types/node" "*"
-    "@types/tapable" "*"
-    "@types/uglify-js" "*"
-    "@types/webpack-sources" "*"
-    source-map "^0.6.0"
-
-"@types/webpack@^4.41.23":
+"@types/webpack@*", "@types/webpack@^4.41.23":
   version "4.41.23"
   resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.23.tgz#1925f42a7325be4ae0fce38329f1cc27768fcda7"
   integrity sha512-ojA4CupZg8RCzVJLugWlvqrHpT59GWhqFxbinlsnvk10MjQCWB+ot7XDACctbWhnhtdhYK7+HOH1JxkVLiZhMg==
@@ -4302,10 +4290,10 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@urql/core@^1.12.3":
-  version "1.12.3"
-  resolved "https://registry.yarnpkg.com/@urql/core/-/core-1.12.3.tgz#74f7b8e073cf706380bb3dd28484b8136cc96905"
-  integrity sha512-e4IXXQ4nes3KyusgYV925DuzfDAfo4ex7Ls3tZfOExkxEcXh0i0XnizXp0rvZmWRch69YCkc+Lh1Gy2aY49HTQ==
+"@urql/core@^1.14.1":
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/@urql/core/-/core-1.14.1.tgz#eadd3f4dbbb9d194a67bc84fcce082bb511d13fe"
+  integrity sha512-yRpGazoqn4eSzcVcnwKCYcXEePiwc/fwkKAzguPP9sNZu3qWMBSHzH7huu0FeuwTiSxu6S1x3l0s7QYere0ZFQ==
   dependencies:
     wonka "^4.0.14"
 
@@ -11051,10 +11039,10 @@ gather-stream@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/gather-stream/-/gather-stream-1.0.0.tgz#b33994af457a8115700d410f317733cbe7a0904b"
 
-gatsby-interface@^0.0.225:
-  version "0.0.225"
-  resolved "https://registry.yarnpkg.com/gatsby-interface/-/gatsby-interface-0.0.225.tgz#f2962d8f2e40163ff1bf908f3083ef634a3f4730"
-  integrity sha512-pJtp9uRSQL8OQCIQeADLOhVqMi2zRSHV6cwo3DwlVvwV264LffCirk1oYoJxldMbIyf0TEx3ouvoRWSIeq/8zw==
+gatsby-interface@^0.0.230:
+  version "0.0.230"
+  resolved "https://registry.yarnpkg.com/gatsby-interface/-/gatsby-interface-0.0.230.tgz#dbd3f519e5fbf10c184394e025bab0c8869d8df1"
+  integrity sha512-h7Pcx+opfKEtneEjAoBzZu+O67+sx9xx5XXtP+5PL+0xHHQTmCR+T2h3vTIBnIYxJXNyRBuNmvFXHqWVqVa6TQ==
   dependencies:
     "@mdx-js/react" "^1.5.2"
     "@reach/alert" "0.10.3"
@@ -25092,12 +25080,12 @@ urltools@^0.4.1:
     underscore "^1.8.3"
     urijs "^1.18.2"
 
-urql@^1.10.1, urql@^1.9.7:
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/urql/-/urql-1.10.1.tgz#48353c0d02175481377fa95ff150b7449bd2f7c5"
-  integrity sha512-DMafjxLZfWUPSZRs39+wxmrHTqHm4LLfHvKQfSqkmkwneO/Ws5SLJsT/enZcQfLlH0ZWGvBOVHtVt3j0y8HbcQ==
+urql@^1.10.3, urql@^1.9.7:
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/urql/-/urql-1.10.3.tgz#cc2e5355d74210055c0cb08cf3a5792a706ca8d7"
+  integrity sha512-dR3SLG0S+DUeiedIzAKvzzZnl+QOxsxbLneqft26ewYiJQPLqTJLGnD63cXYGpkcst5+/QlPFF9nMH0xz6DV2A==
   dependencies:
-    "@urql/core" "^1.12.3"
+    "@urql/core" "^1.14.1"
     wonka "^4.0.14"
 
 use-callback-ref@^1.2.1, use-callback-ref@^1.2.3:
